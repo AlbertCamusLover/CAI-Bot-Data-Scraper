@@ -24,11 +24,7 @@ Download the 'botPorfileScraper.py' file and in the terminal install the require
 pip install -r requirements.txt
 ```
 ## Usage
-Run the commands inside the program repository (the location where you have the 'py' file).
+Run the commands inside the program repository (the location where you have the 'py' file) and enter the link and the name you want to give your csv file.
 ```bash
-python botPorfileScraper.py writeBotRecordCSV porfileURL filename  
-```
-Example:
-```bash
-python botPorfileScraper.py writeBotRecordCSV https://character.ai/profile/AlbertCamusLover myBots
+python3 botPorfileScraper.py  
 ```
