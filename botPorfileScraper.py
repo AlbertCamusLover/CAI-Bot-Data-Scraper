@@ -65,7 +65,6 @@ def writeBotRecordCSV(URL: str, filename : str):
         # Writes the data rows
         csvwriter.writerows(getRowsandFields(URL))
 
-writeBotRecordCSV("https://character.ai/profile/AlbertCamusLover", "myBots")
         
 if __name__ == "__main__":
     app()
