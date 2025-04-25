@@ -2,9 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import regex
-import typer
 
-app = typer.Typer()
 
 def goodFormat(text):
     # Pattern matches emojis and the pipe character |
@@ -53,8 +51,8 @@ def getRowsandFields(URL):
 
 fields = ["character","tag","chats","likes"]
 
-@app.command()
-def writeBotRecordCSV(URL: str, filename : str):
+
+def writeBotRecordCSV(URL, filename):
     
     # Writes to csv file
     with open(filename + ".csv", 'w',newline="") as csvfile:
@@ -65,6 +63,7 @@ def writeBotRecordCSV(URL: str, filename : str):
         # Writes the data rows
         csvwriter.writerows(getRowsandFields(URL))
 
-        
-if __name__ == "__main__":
-    app()
+
+url = input('Enter the porfile link:')
+filename = input('Enter the filename:')
+writeBotRecordCSV(url,filename)
