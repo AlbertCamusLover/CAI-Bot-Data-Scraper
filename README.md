@@ -26,9 +26,9 @@ pip install -r requirements.txt
 ## Usage
 Run the commands inside the program repository (the location where you have the 'py' file).
 ```bash
-python botPorfileScraper.py porfileURL filename  
+python botPorfileScraper.py writeBotRecordCSV porfileURL filename  
 ```
 Example:
 ```bash
-python botPorfileScraper.py https://character.ai/profile/AlbertCamusLover myBots
+python botPorfileScraper.py writeBotRecordCSV https://character.ai/profile/AlbertCamusLover myBots
 ```
