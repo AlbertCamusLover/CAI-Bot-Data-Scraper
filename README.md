@@ -15,3 +15,20 @@ Scrapes key details from a bot's profile:
 Outputs the data into a structured .csv file.
 
 Easy to configure and extend for batch scraping or additional metadata.
+
+## Installation
+
+Download the 'botPorfileScraper.py' file and in the terminal install the requirements.
+
+```bash
+pip install -r requirements.txt
+```
+## Usage
+Run the commands inside the program repository (the location where you have the 'py' file).
+```bash
+python botPorfileScraper.py porfileURL filename  
+```
+Example:
+```bash
+python botPorfileScraper.py https://character.ai/profile/AlbertCamusLover myBots
+```
