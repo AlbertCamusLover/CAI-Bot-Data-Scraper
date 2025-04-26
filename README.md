@@ -28,7 +28,7 @@ Run the commands inside the program repository (the location where you have the 
 ```bash
 python botPorfileScraper.py  
 ```
-##Example
+## Example
 ```bash
 >> python botPorfileScraper.py
 Enter the porfile link:https://character.ai/profile/AlbertCamusLover
