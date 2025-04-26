@@ -1,4 +1,4 @@
-[myBotsTable.csv](https://github.com/user-attachments/files/19922835/myBotsTable.csv)# CAI-Bot-Data-Scraper
+# CAI-Bot-Data-Scraper
 This repository contains a Python script that scrapes public profile data from Character.AI bots and saves it to a CSV file for easy analysis or record-keeping.
 
 🔍 Features:
