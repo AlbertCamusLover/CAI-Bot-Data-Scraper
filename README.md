@@ -35,3 +35,8 @@ Enter the porfile link:https://character.ai/profile/AlbertCamusLover
 Enter the filename:myBotsTable
 ```
 Inside the same folder where the script is, the myBotsTable.csv is.
+| character  | tag | chats  | likes |
+| ------------- | ------------- |
+| Jenson Button  |The night going a little too far  |3,994 | 6  |
+| Sebastian Vettel  | """Oh No, I'm Falling in Love Again"""  |2575| 8|
+...
