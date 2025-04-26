@@ -26,5 +26,5 @@ pip install -r requirements.txt
 ## Usage
 Run the commands inside the program repository (the location where you have the 'py' file) and enter the link and the name you want to give your csv file.
 ```bash
-python3 botPorfileScraper.py  
+python botPorfileScraper.py  
 ```
