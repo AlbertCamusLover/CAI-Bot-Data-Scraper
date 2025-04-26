@@ -35,8 +35,3 @@ Enter the porfile link:https://character.ai/profile/AlbertCamusLover
 Enter the filename:myBotsTable
 ```
 Inside the same folder where the script is, the myBotsTable.csv is.
-+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  |
-+============+============+===========+
-| body row 1 | column 2   | column 3  |
-+------------+------------+-----------+
